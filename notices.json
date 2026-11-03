@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T16:38:48.240Z",
+  "updated": "2026-11-03T16:39:41.988Z",
   "versions": [
     "1.1"
   ],
@@ -22,10 +22,20 @@
       "createdAt": "2026-11-03T16:38:48.240Z",
       "title": "Уведомление от разработчика",
       "text": "Привет!",
-      "revoked": false
+      "revoked": true
     }
   ],
   "log": [
+    {
+      "id": "a_2a436579a4",
+      "at": "2026-11-03T16:39:41.988Z",
+      "action": "revoke",
+      "test": false,
+      "summary": "Revoked: Message to all launchers: Уведомление от разработчика",
+      "noticeId": "n_6f447de253",
+      "version": null,
+      "revoked": false
+    },
     {
       "id": "a_99a515e058",
       "at": "2026-11-03T16:38:48.240Z",
@@ -35,7 +45,7 @@
       "text": "Привет!",
       "noticeId": "n_6f447de253",
       "version": null,
-      "revoked": false
+      "revoked": true
     },
     {
       "id": "a_475fb47d85",
