@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T16:38:13.106Z",
+  "updated": "2026-11-03T16:38:27.492Z",
   "versions": [
     "1.1"
   ],
@@ -13,10 +13,20 @@
       "createdAt": "2026-11-03T16:38:13.106Z",
       "title": "Уведомление от разработчика",
       "text": "Привет!",
-      "revoked": false
+      "revoked": true
     }
   ],
   "log": [
+    {
+      "id": "a_475fb47d85",
+      "at": "2026-11-03T16:38:27.492Z",
+      "action": "revoke",
+      "test": true,
+      "summary": "Revoked: Test message (dev launchers): Уведомление от разработчика",
+      "noticeId": "n_ca1b473f2b",
+      "version": null,
+      "revoked": false
+    },
     {
       "id": "a_2f3e606356",
       "at": "2026-11-03T16:38:13.106Z",
@@ -26,7 +36,7 @@
       "text": "Привет!",
       "noticeId": "n_ca1b473f2b",
       "version": null,
-      "revoked": false
+      "revoked": true
     }
   ]
 }
