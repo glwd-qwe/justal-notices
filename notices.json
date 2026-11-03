@@ -1,13 +1,11 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T17:23:43.636Z",
+  "updated": "2026-11-03T17:25:25.290Z",
   "versions": [
     "1.1",
     "1.2"
   ],
-  "blocked": [
-    "1.1"
-  ],
+  "blocked": [],
   "notices": [
     {
       "id": "n_180df78632",
@@ -71,6 +69,16 @@
     }
   ],
   "log": [
+    {
+      "id": "a_ef674df23e",
+      "at": "2026-11-03T17:25:25.290Z",
+      "action": "unblock",
+      "test": false,
+      "summary": "Opened version 1.1",
+      "noticeId": null,
+      "version": "1.1",
+      "revoked": false
+    },
     {
       "id": "a_99fa895557",
       "at": "2026-11-03T17:23:43.636Z",
