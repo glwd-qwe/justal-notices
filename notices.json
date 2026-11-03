@@ -1,14 +1,22 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T16:46:35.827Z",
+  "updated": "2026-11-03T16:46:39.378Z",
   "versions": [
     "1.1"
   ],
-  "blocked": [
-    "1.1"
-  ],
+  "blocked": [],
   "notices": [],
   "log": [
+    {
+      "id": "a_2aeed8dde3",
+      "at": "2026-11-03T16:46:39.378Z",
+      "action": "revoke",
+      "test": false,
+      "summary": "Revoked: Closed version 1.1",
+      "noticeId": null,
+      "version": "1.1",
+      "revoked": false
+    },
     {
       "id": "a_9cce2b1d9c",
       "at": "2026-11-03T16:46:35.827Z",
@@ -37,7 +45,7 @@
       "summary": "Closed version 1.1",
       "noticeId": null,
       "version": "1.1",
-      "revoked": false
+      "revoked": true
     }
   ]
 }
