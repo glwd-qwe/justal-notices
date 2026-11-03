@@ -1,8 +1,23 @@
 {
   "schema": 1,
-  "updated": "",
-  "versions": ["1.1"],
-  "blocked": [],
+  "updated": "2026-11-03T16:45:00.746Z",
+  "versions": [
+    "1.1"
+  ],
+  "blocked": [
+    "1.1"
+  ],
   "notices": [],
-  "log": []
+  "log": [
+    {
+      "id": "a_af402a9541",
+      "at": "2026-11-03T16:45:00.746Z",
+      "action": "block",
+      "test": false,
+      "summary": "Closed version 1.1",
+      "noticeId": null,
+      "version": "1.1",
+      "revoked": false
+    }
+  ]
 }
