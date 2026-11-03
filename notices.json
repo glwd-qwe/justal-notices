@@ -1,9 +1,8 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T17:25:25.290Z",
+  "updated": "2026-11-03T17:25:31.077Z",
   "versions": [
-    "1.1",
-    "1.2"
+    "1.1"
   ],
   "blocked": [],
   "notices": [
@@ -69,6 +68,16 @@
     }
   ],
   "log": [
+    {
+      "id": "a_e22232f914",
+      "at": "2026-11-03T17:25:31.077Z",
+      "action": "remove-version",
+      "test": false,
+      "summary": "Removed version 1.2 from the list",
+      "noticeId": null,
+      "version": "1.2",
+      "revoked": false
+    },
     {
       "id": "a_ef674df23e",
       "at": "2026-11-03T17:25:25.290Z",
