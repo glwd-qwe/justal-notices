@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T17:22:07.087Z",
+  "updated": "2026-11-03T17:22:12.239Z",
   "versions": [
     "1.1"
   ],
@@ -45,9 +45,30 @@
       "title": "/",
       "text": "/",
       "revoked": false
+    },
+    {
+      "id": "n_afd5fefd13",
+      "type": "update",
+      "audience": "dev",
+      "createdAt": "2026-11-03T17:22:12.239Z",
+      "excludeVersions": [
+        "1.1"
+      ],
+      "newVersion": "1.1",
+      "revoked": false
     }
   ],
   "log": [
+    {
+      "id": "a_69fc61823d",
+      "at": "2026-11-03T17:22:12.239Z",
+      "action": "send-update",
+      "test": true,
+      "summary": "Test update notice (dev launchers), not shown to v1.1",
+      "noticeId": "n_afd5fefd13",
+      "version": "1.1",
+      "revoked": false
+    },
     {
       "id": "a_ca99738e01",
       "at": "2026-11-03T17:22:07.087Z",
