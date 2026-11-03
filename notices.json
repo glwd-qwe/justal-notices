@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-03T17:23:36.926Z",
+  "updated": "2026-11-03T17:23:43.636Z",
   "versions": [
     "1.1",
     "1.2"
@@ -57,9 +57,30 @@
       ],
       "newVersion": "1.1",
       "revoked": false
+    },
+    {
+      "id": "n_e22e21ec27",
+      "type": "update",
+      "audience": "all",
+      "createdAt": "2026-11-03T17:23:43.636Z",
+      "excludeVersions": [
+        "1.2"
+      ],
+      "newVersion": "1.2",
+      "revoked": false
     }
   ],
   "log": [
+    {
+      "id": "a_99fa895557",
+      "at": "2026-11-03T17:23:43.636Z",
+      "action": "send-update",
+      "test": false,
+      "summary": "Update notice to all launchers, not shown to v1.2",
+      "noticeId": "n_e22e21ec27",
+      "version": "1.2",
+      "revoked": false
+    },
     {
       "id": "a_d3446a084b",
       "at": "2026-11-03T17:23:36.926Z",
