@@ -1,8 +1,9 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T00:34:44.723Z",
+  "updated": "2026-11-04T13:23:25.934Z",
   "versions": [
-    "1.1"
+    "1.1",
+    "1.1.1"
   ],
   "blocked": [
     "1.1"
@@ -29,6 +30,16 @@
     }
   ],
   "log": [
+    {
+      "id": "a_f7d672858d",
+      "at": "2026-11-04T13:23:25.934Z",
+      "action": "add-version",
+      "test": false,
+      "summary": "Added version 1.1.1 to the list",
+      "noticeId": null,
+      "version": "1.1.1",
+      "revoked": false
+    },
     {
       "id": "a_0f509df1b2",
       "at": "2026-11-04T00:34:44.723Z",
