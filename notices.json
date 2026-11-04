@@ -1,12 +1,13 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T13:23:25.934Z",
+  "updated": "2026-11-04T13:23:34.750Z",
   "versions": [
     "1.1",
     "1.1.1"
   ],
   "blocked": [
-    "1.1"
+    "1.1",
+    "1.1.1"
   ],
   "relays": [],
   "notices": [
@@ -30,6 +31,16 @@
     }
   ],
   "log": [
+    {
+      "id": "a_4493d2991c",
+      "at": "2026-11-04T13:23:34.750Z",
+      "action": "block",
+      "test": false,
+      "summary": "Closed version 1.1.1",
+      "noticeId": null,
+      "version": "1.1.1",
+      "revoked": false
+    },
     {
       "id": "a_f7d672858d",
       "at": "2026-11-04T13:23:25.934Z",
