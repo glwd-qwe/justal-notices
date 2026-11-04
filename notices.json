@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-04T00:27:03.132Z",
+  "updated": "2026-11-04T00:27:41.371Z",
   "versions": [
     "1.1"
   ],
@@ -8,8 +8,29 @@
     "1.1"
   ],
   "relays": [],
-  "notices": [],
+  "notices": [
+    {
+      "id": "n_a5d5ba2503",
+      "type": "message",
+      "audience": "all",
+      "createdAt": "2026-11-04T00:27:41.371Z",
+      "title": "1",
+      "text": "1",
+      "revoked": false
+    }
+  ],
   "log": [
+    {
+      "id": "a_c5d0ee2e1a",
+      "at": "2026-11-04T00:27:41.371Z",
+      "action": "send-message",
+      "test": false,
+      "summary": "Message to all launchers: 1",
+      "text": "1",
+      "noticeId": "n_a5d5ba2503",
+      "version": null,
+      "revoked": false
+    },
     {
       "id": "a_1f88700ae1",
       "at": "2026-11-04T00:27:03.132Z",
